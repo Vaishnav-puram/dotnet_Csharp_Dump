@@ -1,0 +1,15 @@
+C:\Users\Vaishnav Puram\Downloads\dotnet\MVC_EmpMgmt\MVCEmpMgmt\obj\Debug\net8.0\MVCEmpMgmt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vaishnav Puram\Downloads\dotnet\MVC_EmpMgmt\MVCEmpMgmt\obj\Debug\net8.0\MVCEmpMgmt.AssemblyInfoInputs.cache
+C:\Users\Vaishnav Puram\Downloads\dotnet\MVC_EmpMgmt\MVCEmpMgmt\obj\Debug\net8.0\MVCEmpMgmt.AssemblyInfo.cs
+C:\Users\Vaishnav Puram\Downloads\dotnet\MVC_EmpMgmt\MVCEmpMgmt\obj\Debug\net8.0\MVCEmpMgmt.csproj.CoreCompileInputs.cache
+C:\Users\Vaishnav Puram\Downloads\dotnet\MVC_EmpMgmt\MVCEmpMgmt\obj\Debug\net8.0\MVCEmpMgmt.sourcelink.json
+C:\Users\Vaishnav Puram\Downloads\dotnet\MVC_EmpMgmt\MVCEmpMgmt\bin\Debug\net8.0\MVCEmpMgmt.exe
+C:\Users\Vaishnav Puram\Downloads\dotnet\MVC_EmpMgmt\MVCEmpMgmt\bin\Debug\net8.0\MVCEmpMgmt.deps.json
+C:\Users\Vaishnav Puram\Downloads\dotnet\MVC_EmpMgmt\MVCEmpMgmt\bin\Debug\net8.0\MVCEmpMgmt.runtimeconfig.json
+C:\Users\Vaishnav Puram\Downloads\dotnet\MVC_EmpMgmt\MVCEmpMgmt\bin\Debug\net8.0\MVCEmpMgmt.dll
+C:\Users\Vaishnav Puram\Downloads\dotnet\MVC_EmpMgmt\MVCEmpMgmt\bin\Debug\net8.0\MVCEmpMgmt.pdb
+C:\Users\Vaishnav Puram\Downloads\dotnet\MVC_EmpMgmt\MVCEmpMgmt\obj\Debug\net8.0\MVCEmpMgmt.dll
+C:\Users\Vaishnav Puram\Downloads\dotnet\MVC_EmpMgmt\MVCEmpMgmt\obj\Debug\net8.0\refint\MVCEmpMgmt.dll
+C:\Users\Vaishnav Puram\Downloads\dotnet\MVC_EmpMgmt\MVCEmpMgmt\obj\Debug\net8.0\MVCEmpMgmt.pdb
+C:\Users\Vaishnav Puram\Downloads\dotnet\MVC_EmpMgmt\MVCEmpMgmt\obj\Debug\net8.0\MVCEmpMgmt.genruntimeconfig.cache
+C:\Users\Vaishnav Puram\Downloads\dotnet\MVC_EmpMgmt\MVCEmpMgmt\obj\Debug\net8.0\ref\MVCEmpMgmt.dll
