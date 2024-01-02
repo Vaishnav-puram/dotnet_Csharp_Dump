@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVCEmpMgmt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88a48e25486ac5acda9a575b27295c7a4a7087a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+663a72a8b0af8cb123b37af793a192a0aa221fdd")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVCEmpMgmt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVCEmpMgmt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

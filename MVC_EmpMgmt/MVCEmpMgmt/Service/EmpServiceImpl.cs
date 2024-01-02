@@ -39,7 +39,20 @@ public class EmpServiceImpl : EmpService
         }
         empRepo.Serialize(emps,filename);
     }
-    // public void UpdateEmp(int id,Employee newEmp){
-    //     Employee emp=this.GetById(id);
-    // }
+    public void UpdateEmp(int id,Employee newEmp){
+        Employee emp=GetById(id);
+        emp.Id=newEmp.Id;
+        emp.Name=newEmp.Name;
+        emp.Dept=newEmp.Dept;
+        emp.NoOfHrsWorked=newEmp.NoOfHrsWorked;
+        emp.JoiningDate=newEmp.JoiningDate;
+        emp.EType=newEmp.EType;
+        emp.BasicSal=newEmp.BasicSal;
+        emp.Tax=newEmp.Tax;
+        emp.DA=newEmp.DA;
+        DelEmp(id);
+        List<Employee> empList=GetAll();
+        empList.Add(emp);
+        AddEmp(empList);
+    }
 }

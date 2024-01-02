@@ -5,5 +5,5 @@ public interface EmpService{
     public Employee GetById(int id);
     public void AddEmp(List<Employee> emp);
     public void DelEmp(int id);
-    //public void UpdateEmp(int id,Employee emp);
+    public void UpdateEmp(int id,Employee emp);
 }

@@ -22,4 +22,7 @@ public class EmpController{
     public void DelEmp(int id){
         empService.DelEmp(id);
     }
+    public void UpdateEmp(int id,Employee emp){
+        empService.UpdateEmp(id,emp);
+    }
 }
