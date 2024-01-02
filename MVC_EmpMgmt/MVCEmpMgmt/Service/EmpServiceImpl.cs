@@ -2,6 +2,7 @@ namespace Service;
 using System.Collections.Generic;
 using Emp;
 using Repo;
+using CustomExceptions;
 
 public class EmpServiceImpl : EmpService
 {
@@ -26,7 +27,7 @@ public class EmpServiceImpl : EmpService
                 return emp;
             }
         }
-       return null;
+       throw new ResourceNotFoundException("Unable to find the employee with given id !");
 
     }
     public void DelEmp(int id){

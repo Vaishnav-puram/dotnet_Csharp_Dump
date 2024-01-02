@@ -1,6 +1,7 @@
 namespace Controller;
 using Service;
 using Emp;
+using CustomExceptions;
 public class EmpController{
     private EmpService empService;
 
