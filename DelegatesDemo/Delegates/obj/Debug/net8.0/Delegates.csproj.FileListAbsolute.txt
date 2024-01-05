@@ -1,0 +1,15 @@
+C:\Users\Vaishnav Puram\Downloads\dotnet\DelegatesDemo\Delegates\obj\Debug\net8.0\Delegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vaishnav Puram\Downloads\dotnet\DelegatesDemo\Delegates\obj\Debug\net8.0\Delegates.AssemblyInfoInputs.cache
+C:\Users\Vaishnav Puram\Downloads\dotnet\DelegatesDemo\Delegates\obj\Debug\net8.0\Delegates.AssemblyInfo.cs
+C:\Users\Vaishnav Puram\Downloads\dotnet\DelegatesDemo\Delegates\obj\Debug\net8.0\Delegates.csproj.CoreCompileInputs.cache
+C:\Users\Vaishnav Puram\Downloads\dotnet\DelegatesDemo\Delegates\obj\Debug\net8.0\Delegates.sourcelink.json
+C:\Users\Vaishnav Puram\Downloads\dotnet\DelegatesDemo\Delegates\bin\Debug\net8.0\Delegates.exe
+C:\Users\Vaishnav Puram\Downloads\dotnet\DelegatesDemo\Delegates\bin\Debug\net8.0\Delegates.deps.json
+C:\Users\Vaishnav Puram\Downloads\dotnet\DelegatesDemo\Delegates\bin\Debug\net8.0\Delegates.runtimeconfig.json
+C:\Users\Vaishnav Puram\Downloads\dotnet\DelegatesDemo\Delegates\bin\Debug\net8.0\Delegates.dll
+C:\Users\Vaishnav Puram\Downloads\dotnet\DelegatesDemo\Delegates\bin\Debug\net8.0\Delegates.pdb
+C:\Users\Vaishnav Puram\Downloads\dotnet\DelegatesDemo\Delegates\obj\Debug\net8.0\Delegates.dll
+C:\Users\Vaishnav Puram\Downloads\dotnet\DelegatesDemo\Delegates\obj\Debug\net8.0\refint\Delegates.dll
+C:\Users\Vaishnav Puram\Downloads\dotnet\DelegatesDemo\Delegates\obj\Debug\net8.0\Delegates.pdb
+C:\Users\Vaishnav Puram\Downloads\dotnet\DelegatesDemo\Delegates\obj\Debug\net8.0\Delegates.genruntimeconfig.cache
+C:\Users\Vaishnav Puram\Downloads\dotnet\DelegatesDemo\Delegates\obj\Debug\net8.0\ref\Delegates.dll

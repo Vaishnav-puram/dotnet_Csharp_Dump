@@ -31,14 +31,10 @@ public class EmpServiceImpl : EmpService
 
     }
     public void DelEmp(int id){
-        List<Employee> emps=empRepo.DeSerialize(filename);
-        foreach(Employee emp in emps){
-            if(emp.Id==id){
-                emps.Remove(emp);
-                break;
-            }
-        }
-        empRepo.Serialize(emps,filename);
+        List<Employee> emps=GetAll();
+        Employee emp=GetById(id);
+        emps.Remove(emp);
+        AddEmp(emps);
     }
     public void UpdateEmp(int id,Employee newEmp){
         Employee emp=GetById(id);
