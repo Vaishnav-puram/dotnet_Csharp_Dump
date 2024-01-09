@@ -1,5 +1,9 @@
+using SAL;
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddSingleton<IEmpService,EmpServiceImpl>();
+
+builder.Services.AddControllers();
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -20,6 +24,9 @@ var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
+
+app.UseRouting();
+app.MapControllers();
 
 app.MapGet("/weatherforecast", () =>
 {
