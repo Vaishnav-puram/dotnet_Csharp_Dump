@@ -14,7 +14,25 @@ public class EmpController:ControllerBase{
 
     [HttpGet]
     public ActionResult<List<Employee>> GetAll(){
-        Console.WriteLine("------------>",empService.GetAll());
         return empService.GetAll();
+    }
+    
+    [HttpPost]
+    public void AddEmp(Employee employee){
+        empService.AddEmp(employee);
+    }
+
+    [HttpGet("{Id}")]
+    public ActionResult<Employee> GetById(int Id){
+        return empService.GetById(Id);
+    }
+
+    [HttpPut("{Id}")]
+    public void UpdateEmp(int Id,Employee employee){
+        empService.UpdateEmp(Id,employee);
+    }
+    [HttpDelete("{Id}")]
+    public void DelEmp(int Id){
+        empService.DelEmp(Id);
     }
 }
