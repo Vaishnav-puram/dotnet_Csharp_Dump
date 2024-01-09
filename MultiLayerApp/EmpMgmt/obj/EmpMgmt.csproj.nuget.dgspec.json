@@ -1,0 +1,322 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\EmpMgmt\\EmpMgmt.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BLL\\BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\Vaishnav Puram\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vaishnav Puram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BOL\\BOL.csproj"
+              },
+              "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BOL\\BOL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BOL\\BOL.csproj",
+        "projectName": "BOL",
+        "projectPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BOL\\BOL.csproj",
+        "packagesPath": "C:\\Users\\Vaishnav Puram\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BOL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vaishnav Puram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Vaishnav Puram\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vaishnav Puram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BOL\\BOL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\EmpMgmt\\EmpMgmt.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\EmpMgmt\\EmpMgmt.csproj",
+        "projectName": "EmpMgmt",
+        "projectPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\EmpMgmt\\EmpMgmt.csproj",
+        "packagesPath": "C:\\Users\\Vaishnav Puram\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\EmpMgmt\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vaishnav Puram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BOL\\BOL.csproj"
+              },
+              "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\SAL\\SAL.csproj": {
+                "projectPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\SAL\\SAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\SAL\\SAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\SAL\\SAL.csproj",
+        "projectName": "SAL",
+        "projectPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\SAL\\SAL.csproj",
+        "packagesPath": "C:\\Users\\Vaishnav Puram\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\SAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vaishnav Puram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BLL\\BLL.csproj"
+              },
+              "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\MultiLayerApp\\BOL\\BOL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

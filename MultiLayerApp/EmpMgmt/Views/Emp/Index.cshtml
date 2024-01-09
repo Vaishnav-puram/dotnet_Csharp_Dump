@@ -1,0 +1,50 @@
+@using BOL;
+
+<h3>Employee list</h3>
+<hr />
+<a href="/Emp/AddEmp">Add Employee</a>
+<hr />
+<style>
+    th,
+    td {
+        border: 2px solid #dddddd;
+        text-align: center;
+        padding: 8px;
+    }
+</style>
+@{
+
+    List<Employee> emplist = (List<Employee>)ViewData["employees"];
+    <table border="3px" solid #dddddd style="width: 100%;">
+        <tr>
+            <th>EmpId</th>
+            <th>Name</th>
+            <th>NoOfHrsWorked</th>
+            <th>BasicSalary</th>
+            <th>Tax</th>
+            <th>Department</th>
+            <th>Da</th>
+            <th>EmpTpye</th>
+            <th>Joining Date</th>
+            <th>Salary</th>
+            <th colspan="2">Action</th>
+        </tr>
+        @foreach (Employee e in emplist)
+        {
+            <tr>
+                <td>@e.Id</td>
+                <td>@e.Name</td>
+                <td>@e.NoOfHrsWorked</td>
+                <td>@e.BasicSal</td>
+                <td>@e.Tax</td>
+                <td>@e.Dept</td>
+                <td>@e.DA</td>
+                <td>@e.EType</td>
+                <td>@e.JoiningDate</td>
+                <td>@e.computeSal()</td>
+                <td><a href="/Emp/UpdateForm/@e.Id"><button>Update</button></a></td>
+                <td><a href="/Emp/DelEmp/@e.Id"><button>Delete</button></a></td>
+            </tr>
+        }
+    </table>
+}

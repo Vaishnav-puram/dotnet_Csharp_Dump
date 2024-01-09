@@ -1,0 +1,27 @@
+@using BOL;
+
+@* @{
+    int EmpId=(int)ViewData["EmpId"];
+} *@
+<h3>Update Form EMPLOYEE FORM</h3>
+<form action="/Emp/UpdateEmp/@Model.Id" method="post">
+    <label for="Id">Emp id :</label>
+    <input type="text" value="@Model.Id" name="Id" disabled>
+    <label for="Name">Name : </label>
+    <input type="text" value="@Model.Name" name="Name">
+    <label for="noHrs">No.NoOfHrsWorked</label>
+    <input type="number" value="@Model.NoOfHrsWorked"  name="noHrs">
+    <label for="BasicSal">BasicSal</label>
+    <input type="number" value="@Model.BasicSal" name="BasicSal">
+    <label for="Tax">TAX</label>
+    <input type="number" value="@Model.Tax" name="Tax">
+    <label for="Dept">Dept</label>
+    <input type="text" value="@Model.Dept" name="Dept">
+    <label for="DA">DA</label>
+    <input type="number" value="@Model.DA"  name="DA">
+    <label for="EType">Employee Type</label>
+    <input type="number" value="@((int)Model.EType)" name="EType">
+    <label for="JoiningDate">Joining DATE</label>
+    <input type="date"  value='@Model.JoiningDate.ToString("yyyy-MM-dd")' name="JoiningDate"/>
+    <button type="submit">Update</button>
+</form>
