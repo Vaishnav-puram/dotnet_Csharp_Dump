@@ -120,14 +120,19 @@ public class DisconnectedEmpDBRepo
         MySqlCommand cmd = new MySqlCommand();
         cmd.Connection = conn;
         cmd.CommandText = $"select * from employee";
-        da.SelectCommand=cmd;
+        da.SelectCommand = cmd;
+        MySqlCommandBuilder commandBuilder = new MySqlCommandBuilder(da);
         da.Fill(ds);
-        DataTable dt=ds.Tables[0];
-        DataRow [] rows=dt.Select($"Id={Id}");
-        DataRow row=rows[0];
-        row.Delete();
-    
-        MySqlCommandBuilder builder = new MySqlCommandBuilder(da);
+        DataTable dataTable = ds.Tables[0];
+
+        DataColumn[] keycolumn = new DataColumn[1];
+        keycolumn[0] = dataTable.Columns["Id"];
+        dataTable.PrimaryKey = keycolumn;
+
+
+        DataRow dataRow = dataTable.Rows.Find(Id);
+        dataRow.Delete();
+
         da.Update(ds);
     }
     public void UpdateEmp(int Id, Employee emp)
@@ -140,11 +145,15 @@ public class DisconnectedEmpDBRepo
         MySqlCommand cmd = new MySqlCommand();
         cmd.Connection = conn;
         cmd.CommandText = $"select * from employee";
-        da.SelectCommand=cmd;
+        da.SelectCommand = cmd;
+        MySqlCommandBuilder commandBuilder = new MySqlCommandBuilder(da);
         da.Fill(ds);
-        DataTable dt=ds.Tables[0];
-        DataRow [] rows=dt.Select($"Id={Id}");
-        DataRow row=rows[0];
+        DataTable dataTable = ds.Tables[0];
+        DataColumn[] keyColum = new DataColumn[1];
+        keyColum[0] = dataTable.Columns["Id"];
+        dataTable.PrimaryKey = keyColum;
+        DataRow row = dataTable.Rows.Find(Id);
+        row["Id"] = emp.Id;
         row["Name"] = emp.Name;
         row["NoOfHrsWorked"] = emp.NoOfHrsWorked;
         row["DA"] = emp.DA;
@@ -153,7 +162,6 @@ public class DisconnectedEmpDBRepo
         row["Dept"] = emp.Dept;
         row["EType"] = (int)emp.EType;
         row["JoiningDate"] = emp.JoiningDate.ToString("yyyy-MM-dd");
-        MySqlCommandBuilder builder = new MySqlCommandBuilder(da);
-        da.Update(ds);  
+        da.Update(ds);
     }
 }
