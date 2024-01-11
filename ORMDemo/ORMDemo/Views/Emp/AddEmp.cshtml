@@ -1,0 +1,34 @@
+@using Models;
+@model Employee
+<h3>ADD EMPLOYEE FORM</h3>
+<form asp-controller="Emp" asp-action="CreateEmp" method="post">
+    @* <label for="Id">Emp id :</label>
+    <input type="text" name="Id"> *@
+    <label asp-for="Id">Emp id :</label>
+    <input asp-for="Id" class="form-control" />
+    <span asp-validation-for="Id" class="text-danger"></span>
+    <label asp-for="Name">Name : </label>
+    <input asp-for="Name" type="text" name="Name">
+    <label asp-for="NoOfHrsWorked">No.NoOfHrsWorked</label>
+    <input asp-for="NoOfHrsWorked" type="number" name="noHrs">
+    <label asp-for="BasicSal">BasicSal</label>
+    <input asp-for="BasicSal" type="number" name="BasicSal">
+    <label asp-for="Tax">TAX</label>
+    <input asp-for="Tax" type="number" name="Tax">
+    <label asp-for="Dept">Dept</label>
+    <input asp-for="Dept" type="text" name="Dept">
+    <label asp-for="DA">DA</label>
+    <input asp-for="DA" type="number" name="DA">
+    <label asp-for="EType">Employee Type</label>
+    <input asp-for="EType" type="number" name="EType">
+    <label asp-for="JoiningDate">Joining DATE</label>
+    <input asp-for="JoiningDate" type="date" name="JoiningDate">    
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <button type="submit">Add</button>
+</form>
+
+<script>
+    $(document).ready(function () {
+        $("#employeeForm").validate();
+    });
+</script>
