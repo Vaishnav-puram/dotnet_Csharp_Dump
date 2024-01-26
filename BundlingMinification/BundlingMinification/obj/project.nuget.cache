@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "rHRHC5p8Z5GhVzCwQ1SXFysfpxVkuMEK6Znyoea8fDYmI/9/lgMdCaRfwn1NST4+WqXiVLe+d1WvOHmigmsJGg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\BundlingMinification\\BundlingMinification\\BundlingMinification.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vaishnav Puram\\.nuget\\packages\\ligershark.weboptimizer.core\\3.0.396\\ligershark.weboptimizer.core.3.0.396.nupkg.sha512",
+    "C:\\Users\\Vaishnav Puram\\.nuget\\packages\\nuglify\\1.20.7\\nuglify.1.20.7.nupkg.sha512",
+    "C:\\Users\\Vaishnav Puram\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

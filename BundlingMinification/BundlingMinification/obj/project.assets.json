@@ -1,0 +1,190 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "LigerShark.WebOptimizer.Core/3.0.396": {
+        "type": "package",
+        "dependencies": {
+          "NUglify": "1.20.7",
+          "System.Text.Json": "5.0.2"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/WebOptimizer.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/WebOptimizer.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "build": {
+          "build/LigerShark.WebOptimizer.Core.props": {},
+          "build/LigerShark.WebOptimizer.Core.targets": {}
+        }
+      },
+      "NUglify/1.20.7": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/NUglify.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/NUglify.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Text.Json/5.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LigerShark.WebOptimizer.Core/3.0.396": {
+      "sha512": "ObHaqaQ872iiq+VED+aFzREomptzXkhUR2doFprHlHd6b7/7qOcHRwL6SvWJnxeV1p2ngUy2gAT8uCzT6MsIJA==",
+      "type": "package",
+      "path": "ligershark.weboptimizer.core/3.0.396",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/LigerShark.WebOptimizer.Core.props",
+        "build/LigerShark.WebOptimizer.Core.targets",
+        "lib/netcoreapp3.0/WebOptimizer.Core.dll",
+        "lib/netcoreapp3.0/WebOptimizer.Core.xml",
+        "ligershark.weboptimizer.core.3.0.396.nupkg.sha512",
+        "ligershark.weboptimizer.core.nuspec"
+      ]
+    },
+    "NUglify/1.20.7": {
+      "sha512": "yTbDciM8xsVL5ezTsJtWUlyTbVq3KBEFlYaO1E0VXwnn1KjbjEuH6oU8WzyGVLOUUg4KxWQxAdriO9piveodNw==",
+      "type": "package",
+      "path": "nuglify/1.20.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/NUglify.dll",
+        "lib/net35/NUglify.xml",
+        "lib/net40/NUglify.dll",
+        "lib/net40/NUglify.xml",
+        "lib/net5.0/NUglify.dll",
+        "lib/net5.0/NUglify.xml",
+        "lib/netstandard1.3/NUglify.dll",
+        "lib/netstandard1.3/NUglify.xml",
+        "lib/netstandard2.0/NUglify.dll",
+        "lib/netstandard2.0/NUglify.xml",
+        "nuglify.1.20.7.nupkg.sha512",
+        "nuglify.nuspec",
+        "nuglify.png"
+      ]
+    },
+    "System.Text.Json/5.0.2": {
+      "sha512": "I47dVIGiV6SfAyppphxqupertT/5oZkYLDCX6vC3HpOI4ZLjyoKAreUoem2ie6G0RbRuFrlqz/PcTQjfb2DOfQ==",
+      "type": "package",
+      "path": "system.text.json/5.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/netcoreapp3.0/System.Text.Json.dll",
+        "lib/netcoreapp3.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.5.0.2.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "LigerShark.WebOptimizer.Core >= 3.0.396"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Vaishnav Puram\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\BundlingMinification\\BundlingMinification\\BundlingMinification.csproj",
+      "projectName": "BundlingMinification",
+      "projectPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\BundlingMinification\\BundlingMinification\\BundlingMinification.csproj",
+      "packagesPath": "C:\\Users\\Vaishnav Puram\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vaishnav Puram\\Downloads\\dotnet\\BundlingMinification\\BundlingMinification\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Vaishnav Puram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "LigerShark.WebOptimizer.Core": {
+            "target": "Package",
+            "version": "[3.0.396, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
