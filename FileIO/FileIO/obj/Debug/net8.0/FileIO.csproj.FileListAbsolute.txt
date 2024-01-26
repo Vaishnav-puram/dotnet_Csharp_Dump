@@ -1,0 +1,15 @@
+C:\Users\Vaishnav Puram\Downloads\dotnet\FileIO\FileIO\bin\Debug\net8.0\FileIO.exe
+C:\Users\Vaishnav Puram\Downloads\dotnet\FileIO\FileIO\bin\Debug\net8.0\FileIO.deps.json
+C:\Users\Vaishnav Puram\Downloads\dotnet\FileIO\FileIO\bin\Debug\net8.0\FileIO.runtimeconfig.json
+C:\Users\Vaishnav Puram\Downloads\dotnet\FileIO\FileIO\bin\Debug\net8.0\FileIO.dll
+C:\Users\Vaishnav Puram\Downloads\dotnet\FileIO\FileIO\bin\Debug\net8.0\FileIO.pdb
+C:\Users\Vaishnav Puram\Downloads\dotnet\FileIO\FileIO\obj\Debug\net8.0\FileIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vaishnav Puram\Downloads\dotnet\FileIO\FileIO\obj\Debug\net8.0\FileIO.AssemblyInfoInputs.cache
+C:\Users\Vaishnav Puram\Downloads\dotnet\FileIO\FileIO\obj\Debug\net8.0\FileIO.AssemblyInfo.cs
+C:\Users\Vaishnav Puram\Downloads\dotnet\FileIO\FileIO\obj\Debug\net8.0\FileIO.csproj.CoreCompileInputs.cache
+C:\Users\Vaishnav Puram\Downloads\dotnet\FileIO\FileIO\obj\Debug\net8.0\FileIO.sourcelink.json
+C:\Users\Vaishnav Puram\Downloads\dotnet\FileIO\FileIO\obj\Debug\net8.0\FileIO.dll
+C:\Users\Vaishnav Puram\Downloads\dotnet\FileIO\FileIO\obj\Debug\net8.0\refint\FileIO.dll
+C:\Users\Vaishnav Puram\Downloads\dotnet\FileIO\FileIO\obj\Debug\net8.0\FileIO.pdb
+C:\Users\Vaishnav Puram\Downloads\dotnet\FileIO\FileIO\obj\Debug\net8.0\FileIO.genruntimeconfig.cache
+C:\Users\Vaishnav Puram\Downloads\dotnet\FileIO\FileIO\obj\Debug\net8.0\ref\FileIO.dll
