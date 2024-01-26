@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Models.Product>
+@{
+    ViewData["Title"] = "Details";
+}
+<div>
+    <h4>Product Details</h4>
+    <table class="table">
+        <tr>
+            <th>
+                ProductID
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Category
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Price
+            </th>
+        </tr>
+        @* @await Html.PartialAsync("_ProductDetails", Model) *@
+        @foreach (var item in Model)
+        {
+            @* @Html.Partial("_ProductDetails", item); *@ //or below method
+            <partial name="_ProductDetails" model="item"></partial>
+        }
+    </table>
+</div>
